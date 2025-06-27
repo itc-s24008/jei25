@@ -1,8 +1,8 @@
 public class D51Q22 {
     public static void main(String[] args) {
-        int binary = 0b11; // 2進数の3
-        int decimal = 5;   // 10進数の5
-        int sum = binary + decimal; // 3 + 5 = 8
+        int a = 0b11; // 2進数の3
+        int b = 5;   // 10進数の5
+        int sum = a + b; // 3 + 5 = 8
 
         // 計算結果を表示
         view(true, "計算結果（0b11 + 5）は " + sum);
