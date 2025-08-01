@@ -5,7 +5,7 @@ public class D53Q20 {
         int i = 8;
         float f = 3.27f;
 
-        int n = i + (int)f;
+        float n = i + f;
         System.out.println(n);
     }
 }
