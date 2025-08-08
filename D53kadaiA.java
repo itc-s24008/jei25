@@ -2,8 +2,8 @@ public class D53kadaiA {
     public static void main(String[] args) {
         // 引数が渡されていない場合のエラーチェック
         if (args.length == 0) {
-            System.out.println("エラー: 引数が指定されていません。");
-            System.out.println("使用例: java D53kadaiA 1 2 3");
+            System.out.println("引数が指定されていません。");
+            System.out.println("java D53kadaiA 1 2 3");
             return; // プログラム終了
         }
 
