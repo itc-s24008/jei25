@@ -1,4 +1,4 @@
-public class D53Q6 {
+public class D53Q6kadai {
     private static String hex = "0123456789ABCDEF";
 
     public static void main(String[] args) {
