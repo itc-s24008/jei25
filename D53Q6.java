@@ -27,7 +27,6 @@ public class D53Q6 {
         }
     }
 
-    // 整数(0〜15) → "o.o." のような表現に変換
     public static String intToStr(int num) {
         String s = "";
         for (int i = 0; i < 4; i++) {
@@ -41,7 +40,6 @@ public class D53Q6 {
         return s;
     }
 
-    // "o.o." 形式 → 対応する16進文字（0〜F）を返す
     public static String strToInt(String s) {
         int x = 1, sum = 0;
         for (int i = 3; i >= 0; i--) {
